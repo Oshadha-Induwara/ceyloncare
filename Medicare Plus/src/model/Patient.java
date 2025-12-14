@@ -18,30 +18,37 @@ public class Patient {
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public String getContact() {
+
         return contact;
     }
 
     public void setContact(String contact) {
+
         this.contact = contact;
     }
 
     public String getMedi_history() {
+
         return medi_history;
     }
 
     public void setMedi_history(String medi_history) {
+
         this.medi_history = medi_history;
     }
 }

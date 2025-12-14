@@ -56,7 +56,6 @@ public class PatientDAO {
 
         try (Connection con = DatabaseConnection.getConnection();
                 PreparedStatement ps = con.prepareStatement(sql)) {
-
             ps.setInt(1, id);
             ps.executeUpdate();
         }

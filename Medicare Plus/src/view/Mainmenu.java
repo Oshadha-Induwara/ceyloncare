@@ -15,7 +15,7 @@ public class Mainmenu extends JFrame {
     private JButton notificationButton;
 
     public Mainmenu() {
-        setTitle("Medicare Plus - Main Menu");
+        setTitle("Ceylon Care - Main Menu");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -52,7 +52,7 @@ public class Mainmenu extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        titleLable = new JLabel("Medicare Plus System", SwingConstants.CENTER);
+        titleLable = new JLabel("Ceylon Care Health System", SwingConstants.CENTER);
         titleLable.setFont(new Font("Arial", Font.BOLD, 24));
         gbc.gridx = 0;
         gbc.gridy = 0;
